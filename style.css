@@ -1,0 +1,60 @@
+html{
+    background-color: black;
+    color: white;
+}
+#screen{
+    text-align: center;
+}
+#main-box{
+    width: 370px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#box{
+    display: grid;
+    grid-template-columns: repeat(7, 50px);
+    grid-template-rows: repeat(6, 50px);
+    width: 350px;
+    height: 300px;
+    background-color: blue;
+    padding: 5px;
+    border-radius: 10px;
+    
+}
+#box-top{
+    display: grid;
+    grid-template-columns: repeat(7, 50px);
+}
+#restart{
+    display: block;
+    width: 100px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+}
+.square{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: black;
+    margin: 5px;
+}
+.hover{
+    background-color: gray;
+}
+.red{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: red;
+}
+.yellow{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: yellow;
+}
